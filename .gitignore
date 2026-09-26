@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Environment secrets — NEVER commit this
+backend/.env
+
+# Vector DB data (large, regenerable)
+backend/chroma_data/
+
+# SQLite database
+backend/tickets.db
+
+# Node/React
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
